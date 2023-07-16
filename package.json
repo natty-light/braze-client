@@ -2,7 +2,7 @@
   "name": "braze-client",
   "version": "1.0.0",
   "description": "Client for making requests to the Braze API",
-  "main": "index.js",
+  "main": "braze.js",
   "author": "Natasha Gallant",
   "license": "MIT",
   "devDependencies": {
@@ -13,5 +13,9 @@
   "dependencies": {
     "axios": "^1.4.0",
     "yargs": "^17.7.2"
+  },
+  "scripts": {
+    "build": "yarn tsc",
+    "go": "node bin/braze.js"
   }
 }
